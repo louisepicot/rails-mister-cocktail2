@@ -8,3 +8,11 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+
+lottie.loadAnimation({
+  container: element, // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'data.json' // the path to the animation json
+});
